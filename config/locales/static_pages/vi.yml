@@ -1,0 +1,24 @@
+vi:
+  static_pages:
+    login: "Đăng nhập"
+    home:
+      signup: "Đăng ký ngay!"
+      welcome: "Chào mừng đến với Sample App"
+      title: "Trang chủ"
+      intro_html: "Đây là trang chủ của ứng dụng mẫu %{link} ."
+      tutorial_link_html: "Hướng dẫn Ruby on Rails</a>"
+    help:
+      title: "Trợ giúp"
+      intro_html: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{link}"
+      tutorial_link_html: "Hướng dẫn Ruby on Rails"
+      intro_html_2: "Để được trợ giúp về ứng dụng mẫu này, hãy xem %{link}"
+      tutorial_link_html_2: "Sách Hướng dẫn Ruby on Rails."
+    about:
+      title: "Giới thiệu"
+      intro_html: "Đây là trang giới thiệu của ứng dụng mẫu %{link}."
+      tutorial_link_html: "Hướng dẫn Ruby on Rails"
+    contact:
+      title: "Liên hệ"
+      hello: "Xin chào Nhật Vĩ"
+      intro_html: "Đây là trang liên hệ của ứng dụng mẫu %{link}."
+      tutorial_link_html: "trang liên hệ"

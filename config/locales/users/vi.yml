@@ -1,0 +1,21 @@
+vi:
+  the_form_contains: "Form này có"
+  error: "lỗi"
+  not_found_user: "Không tìm thấy tài khoản!"
+  genders:
+    male: "Nam"
+    female: "Nữ"
+    other: "Khác"
+  time:
+    formats:
+      default: "%d/%m/%Y %H:%M"
+      long: "%-d tháng %-m, %Y lúc %H:%M"
+  users:
+      new:
+        create_my_account: "Tạo tài khoản"
+        sign_up: "Đăng ký"
+        create_my_account: "Tạo tài khoản"
+      show:
+          created_at: "Ngày tạo"
+          updated_at: "Lần cập nhật gần nhất"
+
