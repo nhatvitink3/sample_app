@@ -1,33 +1,28 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   "true": "foo"
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  sampleapp: "Sample app"
+  lang_en: "English"
+  lang_vi: "VietNamese"
+  static_pages:
+    app_title: "Ruby on Rails Tutorial Sample App"
+    login: "Login"
+    home:
+      signup: "Sign up now!"
+      welcome: "Welcome to the Sample App"
+      title: "Home"
+      intro_html: "This is the home page for the %{link} sample application."
+      tutorial_link_html: "Ruby on Rails Tutorial"
+    help:
+      title: "Help"
+      intro_html: "Get help on the Ruby on Rails Tutorial at the %{link} "
+      tutorial_link_html: "Ruby on Rails Tutorial"
+      intro_html_2: "To get help on this sample app, see the %{link} "
+      tutorial_link_html_2: "Ruby on RailsTutorial book."
+    about:
+      title: "About"
+      intro_html: "This is the about page for the %{link} sample application."
+      tutorial_link_html: "Ruby on Rails Tutorial"
+    contact:
+      title: "Contact"
+      hello: "Hello Nhat Vi"
+      intro_html: "This is the contact page for the %{link} sample application."
+      tutorial_link_html: "contact page"

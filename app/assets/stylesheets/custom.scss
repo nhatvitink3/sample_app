@@ -1,0 +1,78 @@
+@import "bootstrap";
+
+/* === UNIVERSAL === */
+
+body {
+    padding-top: 100px;
+    /* navbar cao */
+}
+
+section {
+    overflow: auto;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* === CENTER CLASS === */
+
+.center {
+    text-align: center;
+}
+
+.center h1 {
+    margin-bottom: 10px;
+}
+
+/* === LOGO === */
+
+#logo {
+    color: #fff !important;
+    float: left;
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* === HEADER NAVBAR === */
+
+header.navbar {
+    background-color: #222;
+    border-bottom: 1px solid #080808;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+/* === NAVBAR LINK === */
+
+.navbar-nav>li>a {
+    color: #fff !important;
+    padding: 15px 10px;
+}
+
+.navbar-nav>li>a:hover {
+    text-decoration: underline;
+}
+
+/* === NAV LAYOUT === */
+
+nav {
+    float: right;
+}
+
+.navbar .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
