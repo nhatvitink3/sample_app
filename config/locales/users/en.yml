@@ -17,3 +17,5 @@ en:
       show:
           created_at: "Created at"
           updated_at: "Updated at"
+      load_user:
+        not_found_user: "Not found user!"

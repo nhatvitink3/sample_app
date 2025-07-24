@@ -1,5 +1,11 @@
 @import "bootstrap";
 
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* === FORM === */
 input,
 textarea,
@@ -8,7 +14,7 @@ select,
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
-  // @include box_sizing;
+  @include box_sizing;
 }
 
 input {
@@ -25,8 +31,9 @@ input {
 }
 
 .field_with_errors {
+  @extend .has-error;
+
   .form-control {
-    border-color: $danger;
-    color: $form-feedback-invalid-color;
+    color: $state-danger-text;
   }
 }

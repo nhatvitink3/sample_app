@@ -3,3 +3,9 @@ en:
   lang_en: "English"
   lang_vi: "VietNamese"
   app_title: "Ruby on Rails Tutorial Sample App"
+  drop_down_account:
+    settings: "Settings"
+    profile: "Profile"
+    logout: "Logout"
+    users: "Users"
+    account: "Account"

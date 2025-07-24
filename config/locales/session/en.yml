@@ -1,0 +1,10 @@
+en:
+  sessions:
+    new:
+      log_in: "Log in"
+      new_user?: "New user? "
+      sign_up_now: "Signup now!"
+      password: "Password"
+    create:
+      login_success: "Đăng nhập thành công!"
+      invalid_email_password_combination: "Invalid email password combination"
