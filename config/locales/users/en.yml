@@ -1,0 +1,19 @@
+en:
+  the_form_contains: "This form contain"
+  error: "error"
+  not_found_user: "Not found user!"
+  genders:
+    male: "Male"
+    female: "Female"
+    other: "Other"
+  time:
+    formats:
+      default: "%d/%m/%Y %H:%M"
+      long: "%B %d, %Y at %H:%M"
+  users:
+      new:
+        create_my_account: "Create my account"
+        sign_up: "Sign up"
+      show:
+          created_at: "Created at"
+          updated_at: "Updated at"

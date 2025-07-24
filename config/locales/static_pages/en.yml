@@ -1,0 +1,24 @@
+en:
+  static_pages:
+    login: "Login"
+    home:
+      signup: "Sign up now!"
+      welcome: "Welcome to the Sample App"
+      title: "Home"
+      intro_html: "This is the home page for the %{link} sample application."
+      tutorial_link_html: "Ruby on Rails Tutorial"
+    help:
+      title: "Help"
+      intro_html: "Get help on the Ruby on Rails Tutorial at the %{link} "
+      tutorial_link_html: "Ruby on Rails Tutorial"
+      intro_html_2: "To get help on this sample app, see the %{link} "
+      tutorial_link_html_2: "Ruby on RailsTutorial book."
+    about:
+      title: "About"
+      intro_html: "This is the about page for the %{link} sample application."
+      tutorial_link_html: "Ruby on Rails Tutorial"
+    contact:
+      title: "Contact"
+      hello: "Hello Nhat Vi"
+      intro_html: "This is the contact page for the %{link} sample application."
+      tutorial_link_html: "contact page"

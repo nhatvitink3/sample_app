@@ -1,7 +1,12 @@
 class User < ApplicationRecord
   has_secure_password
 
+  USER_PERMIT = %i(name birthday gender email password
+    password_confirmation).freeze
+
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+
+  enum gender: {male: 0, female: 1, other: 2}
 
   validates :name, presence: true,
     length: {maximum: Settings.user.max_name_length}
@@ -10,6 +15,7 @@ class User < ApplicationRecord
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
 
   validates :birthday, presence: true
+  validates :gender, presence: true
 
   validate :birthday_within_limit
 
