@@ -1,12 +1,14 @@
 class SessionsController < ApplicationController
+  CHECKED = "1".freeze
+
   # GET: /login
   def new; end
 
   # POST: /login
   def create
     user = User.find_by email: params.dig(:session, :email)&.downcase
-    if user&.authenticate params.dig(:session, :password)
-      successful_login user
+    if user.try(:authenticate, params.dig(:session, :password))
+      successful_login(user)
     else
       failed_login
     end
@@ -22,7 +24,11 @@ class SessionsController < ApplicationController
 
   def successful_login user
     log_in user
-    flash[:success] = t(".login_success")
+    if params.dig(:session, :remember_me) == CHECKED
+      remember(user)
+    else
+      forget(user)
+    end
     redirect_to user, status: :see_other
   end
 
