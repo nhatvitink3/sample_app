@@ -1,9 +1,10 @@
 @import "bootstrap";
+@import "bootstrap-sprockets";
 
 /* === UNIVERSAL === */
 
 body {
-  padding-top: 100px;
+  padding-top: 60px;
   /* navbar cao */
 }
 
@@ -75,4 +76,12 @@ nav {
   align-items: center;
   display: flex;
   justify-content: space-between;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.active {
+  display: block;
 }

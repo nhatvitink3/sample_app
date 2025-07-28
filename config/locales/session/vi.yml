@@ -1,0 +1,10 @@
+vi:
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      new_user?: "Chưa có tài khoản? "
+      sign_up_now: "Đăng ký ngay!"
+      password: "Mật khẩu"
+    create:
+      login_success: "Đăng nhập thành công!"
+      invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ!"

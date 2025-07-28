@@ -3,3 +3,9 @@ vi:
   lang_en: "Tiếng Anh"
   lang_vi: "Tiếng Việt"
   app_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  drop_down_account:
+    settings: "Cài đặt"
+    profile: "Hồ sơ"
+    logout: "Đăng xuất"
+    users: "Người dùng"
+    account: "Tài khoản"

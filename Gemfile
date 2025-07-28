@@ -9,7 +9,7 @@ gem "config"
 
 gem "bcrypt", "~> 3.1.8"
 
-gem "bootstrap", "~> 5.3"
+gem "bootstrap-sass", "~> 3.4.1"
 gem "sassc-rails"
 
 gem "rails", "~> 7.0.7"
