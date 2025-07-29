@@ -1,7 +1,6 @@
 vi:
   the_form_contains: "Form này có"
   error: "lỗi"
-  not_found_user: "Không tìm thấy tài khoản!"
   genders:
     male: "Nam"
     female: "Nữ"
@@ -11,11 +10,29 @@ vi:
       default: "%d/%m/%Y %H:%M"
       long: "%-d tháng %-m, %Y lúc %H:%M"
   users:
-      new:
-        create_my_account: "Tạo tài khoản"
-        sign_up: "Đăng ký"
-        create_my_account: "Tạo tài khoản"
-      show:
-          created_at: "Ngày tạo"
-          updated_at: "Lần cập nhật gần nhất"
-
+    not_admin: "Bạn không phải admin"
+    not_correct_user: "Bạn không thể xem người dùng này"
+    please_login: "Xin hãy đăng nhập"
+    not_found_user: "Không tìm thấy tài khoản!"
+    new:
+      create_my_account: "Tạo tài khoản"
+      sign_up: "Đăng ký"
+    show:
+        created_at: "Ngày tạo"
+        updated_at: "Lần cập nhật gần nhất"
+    edit:
+      title: "Chỉnh sửa người dùng"
+      change: "Thay đổi"
+      edit_user: "Chỉnh sửa người dùng"
+      save_changes: "Lưu thay đổi"
+      update_your_profile: "Cập nhật hồ sơ"
+    destroy:
+      delete_failed: "Xóa thất bại!"
+      user_deleted: "Đã xóa người dùng!"
+    index:
+      all_users: "Tất cả người dùng"
+    user:
+      you_sure: "Bạn chắc chứ?"
+      delete: "Xóa"
+    update:
+      profile_updated: "Cập nhật thành công!"

@@ -19,6 +19,6 @@ Rails.application.routes.draw do
 
     # Resourceful routes
     resources :microposts, only: %i(index)
-    resources :users, only: %i(show)
+    resources :users
   end
 end

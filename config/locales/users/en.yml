@@ -1,7 +1,6 @@
 en:
   the_form_contains: "This form contain"
   error: "error"
-  not_found_user: "Not found user!"
   genders:
     male: "Male"
     female: "Female"
@@ -11,11 +10,29 @@ en:
       default: "%d/%m/%Y %H:%M"
       long: "%B %d, %Y at %H:%M"
   users:
-      new:
-        create_my_account: "Create my account"
-        sign_up: "Sign up"
-      show:
-          created_at: "Created at"
-          updated_at: "Updated at"
-      load_user:
-        not_found_user: "Not found user!"
+    not_admin: "You r not admin"
+    not_correct_user: "You cannot edit this account"
+    please_login: "Please login"
+    not_found_user: "Not found user!"
+    new:
+      create_my_account: "Create my account"
+      sign_up: "Sign up"
+    show:
+        created_at: "Created at"
+        updated_at: "Updated at"
+    edit:
+      title: "Edit user"
+      change: "Change"
+      edit_user: "Edit user"
+      save_changes: "Save changes"
+      update_your_profile: "Update your profile"
+    destroy:
+      delete_failed: "Delete user failed!"
+      user_deleted: "User deleted!"
+    index:
+      all_users: "All users"
+    user:
+      you_sure: "Are you sure?"
+      delete: "Delete"
+    update:
+      profile_updated: "Profile updated!"

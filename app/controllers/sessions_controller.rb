@@ -23,13 +23,14 @@ class SessionsController < ApplicationController
   private
 
   def successful_login user
+    forwarding_url = session[:forwarding_url]
     log_in user
     if params.dig(:session, :remember_me) == CHECKED
       remember(user)
     else
       forget(user)
     end
-    redirect_to user, status: :see_other
+    redirect_to forwarding_url || user
   end
 
   def failed_login
