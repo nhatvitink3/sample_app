@@ -9,3 +9,4 @@ en:
     create:
       login_success: "Login success!"
       invalid_email_password_combination: "Invalid email password combination"
+      account_not_activated: "Account not activated, please check your email for activation"
