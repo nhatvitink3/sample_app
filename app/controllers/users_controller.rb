@@ -21,6 +21,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def forget
+    update_column :remember_digest, nil
+  end
+
   private
 
   def user_params

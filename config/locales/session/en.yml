@@ -5,6 +5,7 @@ en:
       new_user?: "New user? "
       sign_up_now: "Signup now!"
       password: "Password"
+      remember_me: "Remember me"
     create:
-      login_success: "Đăng nhập thành công!"
+      login_success: "Login success!"
       invalid_email_password_combination: "Invalid email password combination"
