@@ -6,6 +6,8 @@ class User < ApplicationRecord
 
   has_secure_password
 
+  has_many :microposts, dependent: :destroy
+
   USER_PERMIT = %i(name birthday gender email password
     password_confirmation).freeze
 
@@ -92,6 +94,11 @@ class User < ApplicationRecord
   def send_password_change_notification
     UserMailer.password_changed(self).deliver_now
   end
+
+  def feed
+    microposts.recent_posts
+  end
+
   private
 
   def birthday_within_limit

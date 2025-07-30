@@ -20,6 +20,9 @@ en:
     show:
         created_at: "Created at"
         updated_at: "Updated at"
+        microposts_heading: "Microposts heading"
+    load_user:
+      not_found_user: "Not found user!"
     edit:
       title: "Edit user"
       change: "Change"

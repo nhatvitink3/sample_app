@@ -7,6 +7,10 @@ gem "rails-i18n"
 
 gem "config"
 
+gem "active_storage_validations", "0.9.8"
+gem "i18n-js", "3.9.2"
+gem "image_processing", "1.12.2"
+
 gem "bcrypt", "~> 3.1.8"
 
 gem "bootstrap-sass", "~> 3.4.1"

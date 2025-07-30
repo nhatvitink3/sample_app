@@ -10,7 +10,10 @@ class UsersController < ApplicationController
   end
 
   # GET /user
-  def show; end
+  def show
+    @page, @microposts = pagy @user.microposts.recent_posts,
+                              items: Settings.page_10
+  end
 
   # POST /signup
   def create
@@ -75,14 +78,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t("users.not_admin")
     redirect_to root_path, status: :see_other
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t("users.please_login")
-    redirect_to login_path, status: :see_other
   end
 
   def correct_user

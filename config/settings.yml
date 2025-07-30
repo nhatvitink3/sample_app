@@ -11,5 +11,12 @@ user:
 
 digits:
   digit_6: 6
+  digit_50: 50
+  digit_140: 140
 
 page_10: 10
+
+allowed_image_types:
+  - image/jpeg
+  - image/gif
+  - image/png

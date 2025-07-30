@@ -8,6 +8,9 @@ vi:
         gender: "Giới tính"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
+      micropost:
+        content: "Nội dung"
+        image: "Hình ảnh"
     errors:
       models:
         user:
@@ -15,6 +18,12 @@ vi:
             birthday:
               cannot_be_in_the_future: "không thể ở trong tương lai"
               must_be_within_100_years: "phải trong vòng 100 năm gần đây"
+        micropost:
+          attributes:
+            image:
+              invalid_image_type: "phải là định dạng hình ảnh hợp lệ"
+              image_too_large: "phải nhỏ hơn 5MB"
+
   errors:
     messages:
       blank: "không được để trống"

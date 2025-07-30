@@ -7,6 +7,7 @@ en:
       title: "Home"
       intro_html: "This is the home page for the %{link} sample application."
       tutorial_link_html: "Ruby on Rails Tutorial"
+      micropost_feed: "Micropost feed"
     help:
       title: "Help"
       intro_html: "Get help on the Ruby on Rails Tutorial at the %{link} "
