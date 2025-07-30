@@ -12,6 +12,9 @@ gem "bcrypt", "~> 3.1.8"
 gem "bootstrap-sass", "~> 3.4.1"
 gem "sassc-rails"
 
+gem "faker", "2.21.0"
+gem "pagy"
+
 gem "rails", "~> 7.0.7"
 
 gem "sprockets-rails"

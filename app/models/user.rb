@@ -10,8 +10,12 @@ class User < ApplicationRecord
 
   enum gender: {male: 0, female: 1, other: 2}
 
+  scope :recent, -> {order(created_at: :desc)}
+
   validates :name, presence: true,
     length: {maximum: Settings.user.max_name_length}
+  validates :password, presence: true,
+    length: {minimum: Settings.digits.digit_6}, allow_nil: true
   validates :email, presence: true,
     length: {maximum: Settings.user.max_email_length},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
