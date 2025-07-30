@@ -20,5 +20,6 @@ Rails.application.routes.draw do
     # Resourceful routes
     resources :microposts, only: %i(index)
     resources :users
+    resources :account_activations, only: :edit
   end
 end

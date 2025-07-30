@@ -36,3 +36,5 @@ en:
       delete: "Delete"
     update:
       profile_updated: "Profile updated!"
+    create:
+      check_email_for_activation: "You should check email for activation"

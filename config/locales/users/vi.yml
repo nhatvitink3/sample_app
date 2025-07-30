@@ -36,3 +36,5 @@ vi:
       delete: "Xóa"
     update:
       profile_updated: "Cập nhật thành công!"
+    create:
+      check_email_for_activation: "Xin hãy kiểm tra email để xác nhận tài khoản"

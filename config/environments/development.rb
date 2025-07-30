@@ -32,7 +32,7 @@ Rails.application.configure do
   config.active_storage.service = :local
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
+  #config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
 
@@ -53,4 +53,19 @@ Rails.application.configure do
 
   # Suppress logger output for asset requests.
   config.assets.quiet = true
+
+  host = "localhost:3000"
+
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = { host: host }
+
+  config.action_mailer.smtp_settings = {
+    user_name: ENV["USER_EMAIL"],
+    password: ENV["USER_PASSWORD"],
+    address: ENV["SMTP_ADDRESS"],
+    port: ENV["SMTP_PORT"],
+    authentication: :plain,
+    enable_starttls_auto: true,
+  }
 end

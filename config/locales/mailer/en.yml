@@ -1,0 +1,7 @@
+en:
+  user_mailer:
+    account_activation:
+      hi: "Hi %{name},"
+      wmessage: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_button: "Activate Account"
+      subject: "Account activation"

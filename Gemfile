@@ -15,6 +15,8 @@ gem "sassc-rails"
 gem "faker", "2.21.0"
 gem "pagy"
 
+gem "figaro"
+
 gem "rails", "~> 7.0.7"
 
 gem "sprockets-rails"
