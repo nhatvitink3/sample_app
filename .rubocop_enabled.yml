@@ -294,12 +294,6 @@ Style/MultilineTernaryOperator:
                  use if/unless instead.
   Enabled: true
 
-Style/NegatedIf:
-  Description: >-
-                 Favor unless over if for negative conditions
-                 (or control flow or).
-  Enabled: true
-
 Style/NegatedWhile:
   Description: "Favor until over while for negative conditions."
   Enabled: true

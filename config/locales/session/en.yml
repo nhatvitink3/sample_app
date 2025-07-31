@@ -6,6 +6,7 @@ en:
       sign_up_now: "Signup now!"
       password: "Password"
       remember_me: "Remember me"
+      forgot_password: "Forgot password"
     create:
       login_success: "Login success!"
       invalid_email_password_combination: "Invalid email password combination"
