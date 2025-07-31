@@ -8,6 +8,9 @@ en:
         gender: "Gender"
         password: "Password"
         password_confirmation: "Password confirmation"
+      micropost:
+        content: "Content"
+        image: "Image"
     errors:
       models:
         user:
@@ -15,6 +18,12 @@ en:
             birthday:
               cannot_be_in_the_future: "cannot be in the future"
               must_be_within_100_years: "must be within the last 100 years"
+        micropost:
+          attributes:
+            image:
+              invalid_image_type: "must be a valid image format"
+              image_too_large: "must be less than 5MB"
+
   errors:
     messages:
       blank: "can't be blank"

@@ -2,6 +2,19 @@
 
 /* === SIDE BAR === */
 aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+
+  span.picture {
+    margin-top: 10px;
+
+    input {
+      border: 0;
+    }
+  }
+
   section.user_info {
     margin-top: 20px;
   }
@@ -34,6 +47,7 @@ aside {
 .gravatar {
   float: left;
   margin-right: 10px;
+  margin-top: 5px;
 }
 
 .gravatar_edit {

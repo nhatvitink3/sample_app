@@ -1,0 +1,30 @@
+en:
+  shared:
+    user_info:
+      profile: "View my profile"
+      micropost: "Micropost"
+      micropost_singular: "micropost"
+      micropost_plural: "microposts"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      submit: "Submit"
+    error_messages:
+      the_form_contains: "This form contains"
+      error: "error"
+  microposts:
+    micropost:
+      posted: "Posted %{time_ago} ago"
+      delete: "Delete"
+      you_sure?: "Do you want to delete this post?"
+    index:
+      title: "Micropost"
+      empty: "No Microposts"
+    create:
+      created: "Micropost was successfully created."
+    destroy:
+      deleted: "Micropost was successfully deleted."
+      delete_failed: "Micropost deletion failed."
+    invalid: "Micropost is invalid."
+    image_too_large: "Maximum file size is 5MB. Please choose a smaller file."
+    delete: "delete"
+    delete_confirm: "Are you sure you want to delete this micropost?"

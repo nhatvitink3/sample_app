@@ -7,6 +7,7 @@ vi:
       title: "Trang chủ"
       intro_html: "Đây là trang chủ của ứng dụng mẫu %{link} ."
       tutorial_link_html: "Hướng dẫn Ruby on Rails</a>"
+      micropost_feed: "Bảng tin"
     help:
       title: "Trợ giúp"
       intro_html: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{link}"

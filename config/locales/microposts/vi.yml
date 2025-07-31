@@ -1,0 +1,30 @@
+vi:
+  shared:
+    user_info:
+      profile: "Xem hồ sơ của tôi"
+      micropost: "Bài viết"
+      micropost_singular: "bài viết"
+      micropost_plural: "bài viết"
+    micropost_form:
+      placeholder: "Soạn bài viết mới..."
+      submit: "Đăng"
+    error_messages:
+      the_form_contains: "Form này có"
+      error: "lỗi"
+  microposts:
+    micropost:
+      posted: "Đã đăng %{time_ago} trước"
+      delete: "Xóa"
+      you_sure?: "Bạn có chắc muốn xóa bài viết?"
+    index:
+      title: "Bài viết"
+      empty: "Chưa có bài viết nào"
+    create:
+      created: "Bài viết đã được tạo thành công."
+    destroy:
+      deleted: "Bài viết đã được xóa thành công."
+      delete_failed: "Xóa bài viết không thành công."
+    invalid: "Bài viết không hợp lệ."
+    image_too_large: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."
+    delete: "xóa"
+    delete_confirm: "Bạn có chắc chắn muốn xóa bài viết này không?"

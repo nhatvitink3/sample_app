@@ -54,6 +54,8 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
+  config.middleware.use I18n::JS::Middleware
+
   host = "localhost:3000"
 
   config.action_mailer.raise_delivery_errors = true

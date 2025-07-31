@@ -20,6 +20,9 @@ vi:
     show:
         created_at: "Ngày tạo"
         updated_at: "Lần cập nhật gần nhất"
+        microposts_heading: "Tiêu đề bài đăng"
+    load_user:
+      not_found_user: "Not found user!"
     edit:
       title: "Chỉnh sửa người dùng"
       change: "Thay đổi"
