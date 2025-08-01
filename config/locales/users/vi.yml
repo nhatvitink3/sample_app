@@ -10,6 +10,8 @@ vi:
       default: "%d/%m/%Y %H:%M"
       long: "%-d tháng %-m, %Y lúc %H:%M"
   users:
+    following_title: "Đang theo dõi"
+    followers_title: "Người theo dõi"
     not_admin: "Bạn không phải admin"
     not_correct_user: "Bạn không thể xem người dùng này"
     please_login: "Xin hãy đăng nhập"
@@ -41,3 +43,7 @@ vi:
       profile_updated: "Cập nhật thành công!"
     create:
       check_email_for_activation: "Xin hãy kiểm tra email để xác nhận tài khoản"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Hủy theo dõi"

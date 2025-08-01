@@ -10,6 +10,8 @@ en:
       default: "%d/%m/%Y %H:%M"
       long: "%B %d, %Y at %H:%M"
   users:
+    following_title: "Following"
+    followers_title: "Followers"
     not_admin: "You r not admin"
     not_correct_user: "You cannot edit this account"
     please_login: "Please login"
@@ -41,3 +43,7 @@ en:
       profile_updated: "Profile updated!"
     create:
       check_email_for_activation: "You should check email for activation"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"

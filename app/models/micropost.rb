@@ -8,6 +8,7 @@ class Micropost < ApplicationRecord
   IMAGE_DISPLAY_SIZE = [500, 500].freeze
 
   scope :recent_posts, -> {order(created_at: :desc)}
+  scope :relate_posts, ->(user_ids) {where user_id: user_ids}
 
   validates :content, presence: true,
 length: {maximum: Settings.digits.digit_140}
